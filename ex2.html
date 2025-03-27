@@ -20,6 +20,13 @@
 
     <script>
         // Write your function here
+
+        function addParagraph() {
+            var div = document.getElementById("container")
+            var p = document.createElement("p")
+            p.innerHTML = ("This is a new paragraph")
+            div.appendChild(p)
+        }
     </script>
 </body>
 </html>
